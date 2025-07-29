@@ -1,0 +1,60 @@
+name: v_scada
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.7
+  cached_network_image: ^3.2.3
+  flutter_launcher_icons: ^0.13.1
+  cupertino_icons: ^1.0.8
+  http: ^1.3.0
+  shared_preferences: ^2.5.3
+  month_picker_dialog: ^6.1.0
+  image_picker: ^0.8.7+4
+  android_intent_plus: ^4.0.1
+
+  intl: ^0.20.2
+  url_launcher: ^6.2.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+
+
+# ✅ Correct location for flutter_launcher_icons configuration
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/applogoimge.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo2.png
+    - assets/waterwell.png
+    - assets/livedataimage.png
+    - assets/report.png
+    - assets/settings.png
+    - assets/call.png
+    - assets/logout.png
+    - assets/bullet_point.png
+    - assets/eye.png
+    - assets/back.png
+    - assets/contact3.jpg
+    - assets/contactusimage.png
+
+theme_dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  shared_preferences: ^2.2.2
